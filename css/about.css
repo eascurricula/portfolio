@@ -1,0 +1,85 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #081b29, #0f3443, #1b4d5c);
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    background-color: rgba(144, 122, 244, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.left h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+.left p{
+    font-size: 15px;
+    color: whitesmoke;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.left h2{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.sosmed{
+    display: flex;
+    gap: 20px;
+}
+
+.sosmed a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(23, 23, 23);
+    padding: 5px 15px;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.sosmed a:hover{
+    background-color: rgb(165, 178, 192);
+    color: rgb(28, 26, 40);
+    transform: translateY(-5px);
+}
+
+.right h2{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.right ul{
+    margin-bottom: 30px;
+}
+
+.right li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: whitesmoke;
+}

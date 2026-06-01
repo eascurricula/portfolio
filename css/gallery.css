@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #081b29, #0f3443, #1b4d5c);
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.fotoku{
+    width: 400px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.fotoku:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.fotoku img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fotoku p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
